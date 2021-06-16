@@ -15,7 +15,7 @@ import Contact from "@/components/Contact.vue";
 
 export default {
   metaInfo: {
-    title: "Barnabas Tinarwo Portfolio",
+    title: "Barnabas Tinarwo",
   },
   components: {
     About,

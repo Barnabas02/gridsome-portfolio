@@ -41,15 +41,15 @@ export default {
     return {
       projects: [
         {
-          name: "Curriculum",
+          name: "ECCi Website",
           github: "https://github.com/Barnabas02/gridsome-portfolio",
-          description: "Curriculum project for Anderson Adventist High School in Gweru Zimbabwe",
-          image: "https://image.slidesharecdn.com/curriculumpower-190904142528/95/curriculum-development-1-638.jpg"
+          description: "Wordpress site for Exalted Christ Church International. A multiracial, multicultural, cosmopolitan church that centers on Manifesting the Reality of God",
+          image: "https://scontent.fdur5-1.fna.fbcdn.net/v/t1.6435-9/50448793_2198237127105062_9161160522198941696_n.jpg?_nc_cat=107&ccb=1-3&_nc_sid=09cbfe&_nc_eui2=AeFQK5y9ZJrU00EAiaYL7gpABBM33Tcc4PIEEzfdNxzg8iPGmgK--gGVcQfI8WW1nfPYnHJI-tFjjWSRijmEkcBl&_nc_ohc=9W1Ai5CkmCUAX-rawUZ&tn=J6iWAyGo4-Etj0tD&_nc_ht=scontent.fdur5-1.fna&oh=9cabdb8bcd1e7d97818ee84863b6eb14&oe=60E04EA0"
         },
         {
-          name: "Hour Tracking app",
-          github: "https://github.com/Barnabas02/website",
-          description: "Hour Tracking app for my car",
+          name: "Monster Slayer Game",
+          github: "https://github.com/Barnabas02/MonsterSlayerGame",
+          description: "A Udemy Project to demonstrate VueJS basic functionality and features",
           image: "https://www.fittime.co.za/wp-content/uploads/2021/01/f45-1-100x100.png"
         },
       ],
@@ -57,8 +57,8 @@ export default {
   },
   methods: {
     truncate(str){
-      if (str.length >80){
-        return str.slice(0,49) + '...'
+      if (str.length >100){
+        return str.slice(0,99) + '...'
       }  
       return str
     }
